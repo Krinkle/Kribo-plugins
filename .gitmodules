@@ -1,0 +1,3 @@
+[submodule "wmfDbBot_KriboBridge/wmfDbBot"]
+	path = wmfDbBot_KriboBridge/wmfDbBot
+	url = git://github.com/Krinkle/ts-krinkle-wmfDbBot.git
