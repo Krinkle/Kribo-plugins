@@ -57,25 +57,21 @@ class wmfDbBot_KriboBridge {
  * -------------------------------------------------
  */
 
-// @info
 $KriboConfig->commandRegistry['info'] = array(
 	'callback' => array( 'wmfDbBot_KriboBridge', 'cmdInfo' ),
 	'sendResponse' => KRIBO_CMD_RE_CHANNEL_AT, // Listen only in channel with '@' prefix
 );
 
-// @replag
 $KriboConfig->commandRegistry['replag'] = array(
 	'callback' => array( 'wmfDbBot_KriboBridge', 'cmdReplag' ),
 	'sendResponse' => KRIBO_CMD_RE_CHANNEL_AT,
 );
 
-// @externals
 $KriboConfig->commandRegistry['externals'] = array(
 	'callback' => array( 'wmfDbBot_KriboBridge', 'cmdExternals' ),
 	'sendResponse' => KRIBO_CMD_RE_CHANNEL_AT,
 );
 
-// @help
 $KriboConfig->commandRegistry['docs'] = array(
 	'callback' => array( 'wmfDbBot_KriboBridge', 'cmdDocs' ),
 	'sendResponse' => KRIBO_CMD_RE_CHANNEL_AT,
