@@ -47,7 +47,7 @@ class wmfDbBot_KriboBridge {
 	}
 
 	public static function cmdDocs( $data, $irc ) {
-		return "https://github.com/Krinkle/ts-krinkle-wmfDbBot";
+		return "https://github.com/Krinkle/wmfDbBot";
 	}
 
 }
