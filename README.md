@@ -1,4 +1,6 @@
-# [![Build Status](https://travis-ci.org/Krinkle/Kribo-plugins.png?branch=master)](https://travis-ci.org/Krinkle/Kribo-plugins)  Kribo plugins
+[![Build Status](https://travis-ci.org/Krinkle/Kribo-plugins.svg?branch=master)](https://travis-ci.org/Krinkle/Kribo-plugins)
+
+# Kribo plugins
 
 ## Installation
 
